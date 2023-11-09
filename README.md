@@ -29,3 +29,8 @@ Vue.js는 프론트엔드 웹 개발을 위한 자바스크립트 라이브러�
 gsap 설치 : `npm install gsap`<br>
 sass 설치 : `npm install sass`<br>
 lenis 설치 : `npm install @studio-freight/lenis`<br>
+
+### vercel
+[vercel 홈페이지] (https://vercel.com/)
+git 아이디 연동 후 프로젝트 생성
+https://vue-project2023.vercel.app/
