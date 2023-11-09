@@ -12,20 +12,20 @@ Vue.js는 프론트엔드 웹 개발을 위한 자바스크립트 라이브러�
 5. 라우팅 및 상태 관리: Vue 라우터와 상태 관리 라이브러리인 Vuex를 사용하여 싱글 페이지 애플리케이션 (SPA)을 개발할 때 라우팅 및 상태 관리를 쉽게 처리할 수 있습니다.
 
 ## 셋팅
-`npm init vue@latest`
-√ Project name: ... vue-project
-√ Add TypeScript? ... No
-√ Add JSX Support? ... Yes
-√ Add Vue Router for Single Page Application development? ... Yes
-√ Add an End-to-End Testing Solution? » No
-√ Add ESLint for code quality? ... Yes
-√ Add Prettier for code formatting? ... Yes
-
-`cd vue-project`
-`npm install`
-`npm run format`
-`npm run dev`
-
-gsap 설치 : `npm install gsap`
-sass 설치 : `npm install sass`
-lenis 설치 : `npm install @studio-freight/lenis`
+`npm init vue@latest`<br>
+√ Project name: ... vue-project<br>
+√ Add TypeScript? ... No<br>
+√ Add JSX Support? ... Yes<br>
+√ Add Vue Router for Single Page Application development? ... Yes<br>
+√ Add an End-to-End Testing Solution? » No<br>
+√ Add ESLint for code quality? ... Yes<br>
+√ Add Prettier for code formatting? ... Yes<br>
+<br>
+`cd vue-project`<br>
+`npm install`<br>
+`npm run format`<br>
+`npm run dev`<br>
+<br>
+gsap 설치 : `npm install gsap`<br>
+sass 설치 : `npm install sass`<br>
+lenis 설치 : `npm install @studio-freight/lenis`<br>
