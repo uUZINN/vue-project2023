@@ -31,6 +31,8 @@ sass 설치 : `npm install sass`<br>
 lenis 설치 : `npm install @studio-freight/lenis`<br>
 
 ### vercel
+Vercel은 클라우드 기반의 호스팅 및 배포 플랫폼으로, 웹 애플리케이션 및 정적 웹사이트를 쉽게 배포하고 관리할 수 있도록 도와주는 서비스입니다.
+<br><br>
 [vercel 홈페이지] (https://vercel.com/)<br>
 git 아이디 연동 후 프로젝트 생성<br>
 https://vue-project2023.vercel.app/
