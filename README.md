@@ -31,6 +31,6 @@ sass 설치 : `npm install sass`<br>
 lenis 설치 : `npm install @studio-freight/lenis`<br>
 
 ### vercel
-[vercel 홈페이지] (https://vercel.com/)
-git 아이디 연동 후 프로젝트 생성
+[vercel 홈페이지] (https://vercel.com/)<br>
+git 아이디 연동 후 프로젝트 생성<br>
 https://vue-project2023.vercel.app/
