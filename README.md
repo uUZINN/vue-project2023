@@ -106,3 +106,29 @@ export default {
 
 mounted() 라이프 사이클 훅에서 scrollAnimation() 메서드를 호출하여, .port__item 클래스를 가진 요소들을 수평으로 이동시키는 애니메이션을 설정합니다. 
 ScrollTrigger를 이용하여 페이지의 스크롤 위치에 따라 트리거되며, 특정 요소를 스크롤에 고정시키고 애니메이션을 부드럽게 만들어줍니다.
+
+```
+<div v-for="(site, key) in siteText" :key="key" :class="['site__item', 's' + (key + 1)]">
+    <span class="num">{{ key + 1 }}. </span>
+    <div class="text">
+        <div>{{ site.text[0] }}</div>
+        <div>{{ site.text[1] }}</div>
+        <div>{{ site.text[2] }}</div>
+    </div>
+    <h3 class="title">
+        {{ site.title }}
+    </h3>
+    <div class="btn">
+        <a :href=site.code>code</a>
+        <a :href=site.view>view</a>
+    </div>
+    <div class="info">
+        <span>{{ site.info[0] }}</span>
+        <span>{{ site.info[1] }}</span>
+        <span>{{ site.info[2] }}</span>
+    </div>
+</div>
+```
+
+siteText 배열에 있는 데이터를 기반으로 각 사이트 정보를 동적으로 생성하여 표시하는 Vue 컴포넌트입니다. 
+v-for 디렉티브를 활용하여 배열을 순회하고, 각 사이트의 제목, 텍스트, 링크 등을 표시하고 있습니다.
